@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors */
+  /* Opacity Colors */
+  /* --clr-primary-yyy-x here x is the opacity, 5 -> 50% */
+  --clr-primary-100-2: rgba(255, 255, 255, 0.2);
+  --clr-primary-100-5: rgba(255, 255, 255, 0.5);
+  --clr-primary-100-9: rgba(255, 255, 255, 0.9);
+
+  --clr-primary-900-4: rgba(19, 19, 19, 0.4);
+
+  /* Normal Colors */
+  --clr-primary-100: rgb(255, 255, 255);
+  --clr-primary-900: rgb(19, 19, 19);
+}
+
+.debug {
+  outline: 1px solid red;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+  box-shadow: inset 3px 3px black;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-primary-100-5);
+  border-radius: 100vw;
+  cursor: pointer;
+}
+
+:is(p, q, h1, h2, h3, h4, h5, h6)::selection,
+:is(a, label, input, textarea, button)::selection {
+  background-color: var(--clr-primary-100-9);
+  color: var(--clr-primary-900);
+}
+
+/* * {
+  outline: 1px solid red;
+  background: rgba(50, 205, 50, 0.285);
+} */
+
+/* * {
+  @apply outline outline-1 outline-slate-700;
+} */
