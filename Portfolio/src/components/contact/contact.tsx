@@ -21,7 +21,7 @@ function Contact() {
         </div>
         <div className="flex flex-col items-center w-full gap-4">
           <div className="mt-4 text-center transition-all">
-            <p className="text-xl md:text-2xl transition-all">Ranjith Kumar</p>
+            <p className="text-xl md:text-2xl transition-all">Pravardhan N Shetty</p>
             <p>ranjithkumarshetty2003@gmail.com</p>
             <p className="my-2">
               Web Developer | Networking Enthusiast

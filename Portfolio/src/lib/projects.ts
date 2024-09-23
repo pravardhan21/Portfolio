@@ -2,25 +2,14 @@ import { v4 as uuid } from "uuid"
 export const projects = [
   {
     id: uuid(),
-    name: "Intrusion Detection and Prevention using SNORT and Proxy server",
+    name: "Intrusion Detection using machine learning",
     description:
-      "Developed an advanced security system integrating SNORT for real-time intrusion detection and prevention,coupled with Nginx for efficient web traffic management",
+"Developed a Network Intrusion Detection System (NetIDS) using machine learning to accurately detect and classify malicious activities and anomalies in network traffic",
     image: "/projects/P1.png",
-    labels: ["SNORT", "Nginx Proxy Server", "Linux"],
+    labels: ["SNORT", "Machine Learning", "Linux"],
     date: "Ongoing",
     sourceCode:null,
     liveUrl: null,
-  },
-  {
-    id: uuid(),
-    name: "Movie-Library ",
-    description:
-      "Developed a comprehensive movie library platform that enables users to manage, search, and access detailed movie information, with features supporting user-generated movie lists and real-time data retrieval.",
-    image: "/projects/P2.png",
-    labels: ["GCP Compute Engine", "TailwindCSS", "MERN"],
-    date: "March 2024",
-    sourceCode: "https://github.com/ranjithkumar404/Movie-Library",
-    liveUrl: "https://movie-library-beta-two.vercel.app/",
   },
   {
     id: uuid(),

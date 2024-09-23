@@ -15,7 +15,7 @@ export default function Achievements({ params }: AchievementProps) {
       : Number(params["show-achievements"]) || 3
   return (
     <section className="my-12">
-      <H2>Achievements</H2>
+      <H2>Certifications</H2>
       <div className="grid gap-4">
         {achievements.map(
           (achievement, index) =>
@@ -25,20 +25,11 @@ export default function Achievements({ params }: AchievementProps) {
                 key={achievement.id}
               >
                 <div className="flex flex-col">
-                  <H3>
-                    {achievement.position} &#8226; {achievement.competition}
+                <H3>
+ {achievement.competition}
                   </H3>
-                  <div className="flex flex-wrap gap-1 mt-1 mb-4">
-                    {achievement.teamMembers.map((member) => (
-                      <p
-                        className="outline outline-1 outline-slate-700 bg-slate-700 px-2 rounded-md"
-                        key={member}
-                      >
-                        {member}
-                      </p>
-                    ))}
-                  </div>
-                  <p>{achievement.description} </p>
+                  
+                 
                 </div>
                 <p></p>
                 <div className="flex flex-col mt-2">

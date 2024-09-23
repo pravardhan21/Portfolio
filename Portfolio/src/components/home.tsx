@@ -11,11 +11,10 @@ function Home() {
     <main className="flex flex-col-reverse xl:flex-row items-center gap-16 py-8">
       <div className="flex flex-col gap-8">
         <div className="flex flex-col gap-4">
-          <H1>Ranjith Kumar</H1>
+          <H1>Pravardhan N Shetty</H1>
           <div className="flex flex-col gap-4">
-            <p>
-              
-I develop websites using the MERN stack and Tailwind CSS, focusing on building dynamic and responsive web applications. I am also passionate about networking and work on projects related to the same.
+            <p>      
+ I am passionate about networking and work on projects related to the same.
             </p>
             {/* <p>
               I love exploring new technologies, mess around with them, and
@@ -49,7 +48,7 @@ I develop websites using the MERN stack and Tailwind CSS, focusing on building d
             </Link> */}
           </div>
           <Button className="w-full py-2" asChild>
-            <Link href="Resume.pdf" download="Ranjith Resume.pdf">
+            <Link href="Resume.pdf" download="Pravardhan Resume.pdf">
               <span>Resume</span>
               <Icon.Download />
             </Link>
@@ -59,7 +58,7 @@ I develop websites using the MERN stack and Tailwind CSS, focusing on building d
       <div className="rounded-full">
         <Image
           src={ProfileImg}
-          alt="Ranjith Profile"
+          alt="Pravardhan Profile"
           className="rounded-md"
           priority
         />
